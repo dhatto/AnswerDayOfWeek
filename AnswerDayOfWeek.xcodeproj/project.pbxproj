@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F19E2F31E26622100DA953C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19E2F21E26622100DA953C /* main.swift */; };
+		8FD13C921E26680F00A59D6A /* dayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD13C911E26680F00A59D6A /* dayOfWeek.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		8F19E2EF1E26622100DA953C /* AnswerDayOfWeek */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnswerDayOfWeek; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F19E2F21E26622100DA953C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8FD13C911E26680F00A59D6A /* dayOfWeek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayOfWeek.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				8F19E2F21E26622100DA953C /* main.swift */,
+				8FD13C911E26680F00A59D6A /* dayOfWeek.swift */,
 			);
 			path = AnswerDayOfWeek;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F19E2F31E26622100DA953C /* main.swift in Sources */,
+				8FD13C921E26680F00A59D6A /* dayOfWeek.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +257,7 @@
 				8F19E2F81E26622100DA953C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
